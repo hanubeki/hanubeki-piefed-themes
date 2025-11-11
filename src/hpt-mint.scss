@@ -1,21 +1,21 @@
 @import "banner";
 @include hltBanner("");
 
-@import "../../node_modules/bootstrap/scss/mixins/banner";
+@import "../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
 $theme: "hpt-mint";
 $prefix: hpt-;
 
-@import "../../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/functions";
 
 @import "palette.hpt-mint";
 @import "palette.common";
 @import "variables.hpt-mint";
 @import "variables.common";
 
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
 
 @import "subset";
 

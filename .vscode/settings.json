@@ -9,5 +9,5 @@
         }
     ],
     "liveSassCompile.settings.generateMap": false,
-    "liveSassCompile.settings.forceBaseDirectory": "/5/src"
+    "liveSassCompile.settings.forceBaseDirectory": "/src"
 }
