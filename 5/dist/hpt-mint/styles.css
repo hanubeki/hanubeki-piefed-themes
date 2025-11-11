@@ -12011,6 +12011,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: var(--hpt-card-cap-color) !important;
   --bs-card-cap-bg: var(--hpt-card-cap-bg) !important;
   --bs-gutter-x: var(--hpt-gutter-x) !important;
+  --bs-link-color: var(--hpt-link-color) !important;
 }
 
 /* General Bootstrap dark values */
@@ -12996,6 +12997,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 /* PieFed */
+.nav {
+  background-color: var(--hpt-body-bg);
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
+}
+
 div.navbar {
   background-color: var(--hpt-body-bg);
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
