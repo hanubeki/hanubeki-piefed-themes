@@ -12002,6 +12002,7 @@ textarea.form-control-lg {
   --bs-secondary-bg: var(--hpt-secondary-bg) !important;
   --bs-secondary-bg-subtle: var(--hpt-secondary-bg-subtle) !important;
   --bs-secondary-border-subtle: var(--hpt-secondary-border-subtle) !important;
+  --bs-light-bg-subtle: var(--hpt-light-bg-subtle) !important;
   --bs-link-color: var(--hpt-link-color) !important;
   --bs-link-color-rgb: var(--hpt-link-color-rgb) !important;
   --bs-link-opacity: var(--hpt-link-opacity) !important;
