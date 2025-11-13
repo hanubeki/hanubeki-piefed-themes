@@ -12000,7 +12000,9 @@ textarea.form-control-lg {
   --bs-body-line-height: var(--hpt-body-line-height) !important;
   --bs-secondary-color: var(--hpt-secondary-color) !important;
   --bs-secondary-bg: var(--hpt-secondary-bg) !important;
+  --bs-secondary-bg-subtle: var(--hpt-secondary-bg-subtle) !important;
   --bs-secondary-border-subtle: var(--hpt-secondary-border-subtle) !important;
+  --bs-link-color: var(--hpt-link-color) !important;
   --bs-link-color-rgb: var(--hpt-link-color-rgb) !important;
   --bs-link-opacity: var(--hpt-link-opacity) !important;
   --bs-border-color: var(--hpt-border-color) !important;
@@ -12008,10 +12010,10 @@ textarea.form-control-lg {
   --bs-border-width: var(--hpt-border-width) !important;
   --bs-border-radius: var(--hpt-border-radius) !important;
   --bs-box-shadow: var(--hpt-box-shadow) !important;
+  --bs-accordion-active-bg: var(--hpt-accordion-active-bg) !important;
   --bs-card-cap-color: var(--hpt-card-cap-color) !important;
   --bs-card-cap-bg: var(--hpt-card-cap-bg) !important;
   --bs-gutter-x: var(--hpt-gutter-x) !important;
-  --bs-link-color: var(--hpt-link-color) !important;
 }
 
 /* General Bootstrap dark values */
