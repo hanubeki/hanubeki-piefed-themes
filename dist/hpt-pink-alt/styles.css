@@ -12900,7 +12900,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 /* Button style overrides */
-.btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
+.btn-group:not(.btn-group-toggle):has(.btn-outline-secondary):not(:has(> .dropdown-menu)) {
   border-radius: 0.5rem !important;
   background-color: transparent !important;
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
