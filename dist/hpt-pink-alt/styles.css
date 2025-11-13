@@ -12187,7 +12187,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-primary {
   --hpt-btn-color: rgb(201.6, 160.2, 186);
   --hpt-btn-border-color: rgb(201.6, 160.2, 186);
-  --hpt-btn-hover-color: rgb(201.6, 160.2, 186);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(201.6, 160.2, 186);
   --hpt-btn-hover-border-color: rgb(201.6, 160.2, 186);
   --hpt-btn-focus-shadow-rgb: 202, 160, 186;
@@ -12203,7 +12203,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-secondary {
   --hpt-btn-color: rgb(179.4, 156.6, 194.4);
   --hpt-btn-border-color: rgb(179.4, 156.6, 194.4);
-  --hpt-btn-hover-color: rgb(179.4, 156.6, 194.4);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(179.4, 156.6, 194.4);
   --hpt-btn-hover-border-color: rgb(179.4, 156.6, 194.4);
   --hpt-btn-focus-shadow-rgb: 179, 157, 194;
@@ -12219,7 +12219,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-success {
   --hpt-btn-color: rgb(157.8, 179.4, 139.2);
   --hpt-btn-border-color: rgb(157.8, 179.4, 139.2);
-  --hpt-btn-hover-color: rgb(157.8, 179.4, 139.2);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(157.8, 179.4, 139.2);
   --hpt-btn-hover-border-color: rgb(157.8, 179.4, 139.2);
   --hpt-btn-focus-shadow-rgb: 158, 179, 139;
@@ -12235,7 +12235,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-info {
   --hpt-btn-color: rgb(153.6, 154.8, 193.8);
   --hpt-btn-border-color: rgb(153.6, 154.8, 193.8);
-  --hpt-btn-hover-color: rgb(153.6, 154.8, 193.8);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(153.6, 154.8, 193.8);
   --hpt-btn-hover-border-color: rgb(153.6, 154.8, 193.8);
   --hpt-btn-focus-shadow-rgb: 154, 155, 194;
@@ -12251,7 +12251,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-warning {
   --hpt-btn-color: rgb(214.8, 183, 133.2);
   --hpt-btn-border-color: rgb(214.8, 183, 133.2);
-  --hpt-btn-hover-color: rgb(214.8, 183, 133.2);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(214.8, 183, 133.2);
   --hpt-btn-hover-border-color: rgb(214.8, 183, 133.2);
   --hpt-btn-focus-shadow-rgb: 215, 183, 133;
@@ -12267,7 +12267,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .btn-outline-danger {
   --hpt-btn-color: rgb(199.2, 151.2, 155.4);
   --hpt-btn-border-color: rgb(199.2, 151.2, 155.4);
-  --hpt-btn-hover-color: rgb(199.2, 151.2, 155.4);
+  --hpt-btn-hover-color: #3c2c35;
   --hpt-btn-hover-bg: rgb(199.2, 151.2, 155.4);
   --hpt-btn-hover-border-color: rgb(199.2, 151.2, 155.4);
   --hpt-btn-focus-shadow-rgb: 199, 151, 155;
