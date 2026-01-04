@@ -288,6 +288,34 @@ div.navbar {
   }
 }
 
+.message_reactions .message_reaction {
+  background-color: var(--#{$prefix}secondary-bg-subtle);
+  border-color: var(--#{$prefix}border-color);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .message_reactions .message_reaction {
+      background-color: var(--#{$prefix}secondary-bg);
+      border-color: var(--#{$prefix}body-color);
+    }
+  }
+}
+
+.message_reactions .message_reaction:hover {
+  background-color: var(--#{$prefix}secondary-bg);
+  border-color: var(--#{$prefix}border-color);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .message_reactions .message_reaction:hover {
+      background-color: var(--#{$prefix}tertiary-bg);
+      border-color: var(--#{$prefix}body-color);
+    }
+  }
+}
+
 .comment .show-more {
   background-color: var(--#{$prefix}gray-700);
   color: var(--#{$prefix}white);

@@ -11998,19 +11998,25 @@ textarea.form-control-lg {
   --bs-body-color-rgb: var(--hpt-body-color-rgb) !important;
   --bs-body-bg: var(--hpt-body-bg) !important;
   --bs-body-line-height: var(--hpt-body-line-height) !important;
+  --bs-primary-text-emphasis: var(--hpt-primary-text-emphasis) !important;
+  --bs-primary-bg-subtle: var(--hpt-primary-bg-subtle) !important;
+  --bs-primary-border-subtle: var(--hpt-primary-border-subtle) !important;
   --bs-secondary-color: var(--hpt-secondary-color) !important;
   --bs-secondary-bg: var(--hpt-secondary-bg) !important;
   --bs-secondary-bg-subtle: var(--hpt-secondary-bg-subtle) !important;
   --bs-secondary-border-subtle: var(--hpt-secondary-border-subtle) !important;
+  --bs-info-bg-subtle: var(--hpt-info-bg-subtle) !important;
   --bs-light-bg-subtle: var(--hpt-light-bg-subtle) !important;
   --bs-link-color: var(--hpt-link-color) !important;
   --bs-link-color-rgb: var(--hpt-link-color-rgb) !important;
+  --bs-link-hover-color: var(--hpt-link-hover-color) !important;
   --bs-link-opacity: var(--hpt-link-opacity) !important;
   --bs-border-color: var(--hpt-border-color) !important;
   --bs-border-color-translucent: var(--hpt-border-color-translucent) !important;
   --bs-border-width: var(--hpt-border-width) !important;
   --bs-border-radius: var(--hpt-border-radius) !important;
   --bs-box-shadow: var(--hpt-box-shadow) !important;
+  --bs-form-valid-border-color: var(--hpt-form-valid-border-color) !important;
   --bs-accordion-active-bg: var(--hpt-accordion-active-bg) !important;
   --bs-card-cap-color: var(--hpt-card-cap-color) !important;
   --bs-card-cap-bg: var(--hpt-card-cap-bg) !important;
@@ -13148,6 +13154,26 @@ div.navbar {
     border-radius: 0;
   }
 }
+.message_reactions .message_reaction {
+  background-color: var(--hpt-secondary-bg-subtle);
+  border-color: var(--hpt-border-color);
+}
+
+[data-bs-theme=dark] .message_reactions .message_reaction {
+  background-color: var(--hpt-secondary-bg);
+  border-color: var(--hpt-body-color);
+}
+
+.message_reactions .message_reaction:hover {
+  background-color: var(--hpt-secondary-bg);
+  border-color: var(--hpt-border-color);
+}
+
+[data-bs-theme=dark] .message_reactions .message_reaction:hover {
+  background-color: var(--hpt-tertiary-bg);
+  border-color: var(--hpt-body-color);
+}
+
 .comment .show-more {
   background-color: var(--hpt-gray-700);
   color: var(--hpt-white);
