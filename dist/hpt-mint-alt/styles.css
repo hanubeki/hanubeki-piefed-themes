@@ -12001,7 +12001,7 @@ textarea.form-control-lg {
 }
 
 [data-bs-theme=dark] .blockquote-footer {
-  color: var(--prefixgray-700);
+  color: var(--hpt-gray-700);
 }
 
 [data-bs-theme=dark] .text-bg-primary {
@@ -12397,11 +12397,11 @@ textarea.form-control-lg {
 
 [data-bs-theme=dark] .form-floating > :disabled ~ label,
 [data-bs-theme=dark] .form-floating > .form-control:disabled ~ label {
-  color: var(--prefixgray-500);
+  color: var(--hpt-gray-500);
 }
 [data-bs-theme=dark] .form-floating > :disabled ~ label::after,
 [data-bs-theme=dark] .form-floating > .form-control:disabled ~ label::after {
-  background-color: var(--prefixgray-700);
+  background-color: var(--hpt-gray-700);
 }
 
 [data-bs-theme=dark] .valid-feedback {
@@ -12565,7 +12565,7 @@ textarea.form-control-lg {
 
 [data-bs-theme=dark] .input-group-text {
   background-color: var(--hb-post-background);
-  color: var(--prefixwhite);
+  color: var(--hpt-white);
 }
 
 [data-bs-theme=dark] .nav-link:focus-visible {
