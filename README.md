@@ -31,4 +31,4 @@ Put theme folders to `/main/app/templates/themes`.
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-piefed-themes/blob/main/LICENSE)
 
-`_palette.common.scss`, `_variables.common.scss`, `_variables.force-dark.scss` and `mixins/*.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+`_palette.common.scss`, `_variables.common.scss` and `mixins/*.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
