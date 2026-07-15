@@ -11984,45 +11984,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root, [data-bs-theme=light] {
-  --bs-gray: var(--hpt-gray) !important;
-  --bs-primary: var(--hpt-primary) !important;
-  --bs-secondary: var(--hpt-secondary) !important;
-  --bs-success: var(--hpt-success) !important;
-  --bs-info: var(--hpt-info) !important;
-  --bs-warning: var(--hpt-warning) !important;
-  --bs-danger: var(--hpt-danger) !important;
-  --bs-light: var(--hpt-light) !important;
-  --bs-dark: var(--hpt-dark) !important;
-  --bs-body-color: var(--hpt-body-color) !important;
-  --bs-body-color-rgb: var(--hpt-body-color-rgb) !important;
-  --bs-body-bg: var(--hpt-body-bg) !important;
-  --bs-body-line-height: var(--hpt-body-line-height) !important;
-  --bs-primary-text-emphasis: var(--hpt-primary-text-emphasis) !important;
-  --bs-primary-bg-subtle: var(--hpt-primary-bg-subtle) !important;
-  --bs-primary-border-subtle: var(--hpt-primary-border-subtle) !important;
-  --bs-secondary-color: var(--hpt-secondary-color) !important;
-  --bs-secondary-bg: var(--hpt-secondary-bg) !important;
-  --bs-secondary-bg-subtle: var(--hpt-secondary-bg-subtle) !important;
-  --bs-secondary-border-subtle: var(--hpt-secondary-border-subtle) !important;
-  --bs-info-bg-subtle: var(--hpt-info-bg-subtle) !important;
-  --bs-light-bg-subtle: var(--hpt-light-bg-subtle) !important;
-  --bs-link-color: var(--hpt-link-color) !important;
-  --bs-link-color-rgb: var(--hpt-link-color-rgb) !important;
-  --bs-link-hover-color: var(--hpt-link-hover-color) !important;
-  --bs-link-opacity: var(--hpt-link-opacity) !important;
-  --bs-border-color: var(--hpt-border-color) !important;
-  --bs-border-color-translucent: var(--hpt-border-color-translucent) !important;
-  --bs-border-width: var(--hpt-border-width) !important;
-  --bs-border-radius: var(--hpt-border-radius) !important;
-  --bs-box-shadow: var(--hpt-box-shadow) !important;
-  --bs-form-valid-border-color: var(--hpt-form-valid-border-color) !important;
-  --bs-accordion-active-bg: var(--hpt-accordion-active-bg) !important;
-  --bs-card-cap-color: var(--hpt-card-cap-color) !important;
-  --bs-card-cap-bg: var(--hpt-card-cap-bg) !important;
-  --bs-gutter-x: var(--hpt-gutter-x) !important;
-}
-
 /* General Bootstrap dark values */
 [data-bs-theme=dark] {
   --hpt-primary: rgb(207, 161.4, 137.4);
@@ -12716,6 +12677,45 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .link-dark:focus, [data-bs-theme=dark] .link-dark:hover {
   color: var(--hpt-gray-100) !important;
   text-decoration-color: var(--hpt-gray-100) !important;
+}
+
+:root, [data-bs-theme=light] {
+  --bs-gray: var(--hpt-gray) !important;
+  --bs-primary: var(--hpt-primary) !important;
+  --bs-secondary: var(--hpt-secondary) !important;
+  --bs-success: var(--hpt-success) !important;
+  --bs-info: var(--hpt-info) !important;
+  --bs-warning: var(--hpt-warning) !important;
+  --bs-danger: var(--hpt-danger) !important;
+  --bs-light: var(--hpt-light) !important;
+  --bs-dark: var(--hpt-dark) !important;
+  --bs-body-color: var(--hpt-body-color) !important;
+  --bs-body-color-rgb: var(--hpt-body-color-rgb) !important;
+  --bs-body-bg: var(--hpt-body-bg) !important;
+  --bs-body-line-height: var(--hpt-body-line-height) !important;
+  --bs-primary-text-emphasis: var(--hpt-primary-text-emphasis) !important;
+  --bs-primary-bg-subtle: var(--hpt-primary-bg-subtle) !important;
+  --bs-primary-border-subtle: var(--hpt-primary-border-subtle) !important;
+  --bs-secondary-color: var(--hpt-secondary-color) !important;
+  --bs-secondary-bg: var(--hpt-secondary-bg) !important;
+  --bs-secondary-bg-subtle: var(--hpt-secondary-bg-subtle) !important;
+  --bs-secondary-border-subtle: var(--hpt-secondary-border-subtle) !important;
+  --bs-info-bg-subtle: var(--hpt-info-bg-subtle) !important;
+  --bs-light-bg-subtle: var(--hpt-light-bg-subtle) !important;
+  --bs-link-color: var(--hpt-link-color) !important;
+  --bs-link-color-rgb: var(--hpt-link-color-rgb) !important;
+  --bs-link-hover-color: var(--hpt-link-hover-color) !important;
+  --bs-link-opacity: var(--hpt-link-opacity) !important;
+  --bs-border-color: var(--hpt-border-color) !important;
+  --bs-border-color-translucent: var(--hpt-border-color-translucent) !important;
+  --bs-border-width: var(--hpt-border-width) !important;
+  --bs-border-radius: var(--hpt-border-radius) !important;
+  --bs-box-shadow: var(--hpt-box-shadow) !important;
+  --bs-form-valid-border-color: var(--hpt-form-valid-border-color) !important;
+  --bs-accordion-active-bg: var(--hpt-accordion-active-bg) !important;
+  --bs-card-cap-color: var(--hpt-card-cap-color) !important;
+  --bs-card-cap-bg: var(--hpt-card-cap-bg) !important;
+  --bs-gutter-x: var(--hpt-gutter-x) !important;
 }
 
 /* Root variables */
