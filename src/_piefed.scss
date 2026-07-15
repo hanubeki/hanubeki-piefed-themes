@@ -323,7 +323,6 @@ div.navbar {
 
     .replies {
       border-left-color: var(--#{$prefix}gray-300) !important;
-      border-top-color: var(--#{$prefix}gray-300) !important;
 
       &.depth_0 {
         border-left-color: var(--#{$prefix}red) !important;
@@ -475,7 +474,6 @@ div.navbar {
   @include color-mode(dark) {
     :is(#replies, #more_replies) .comment .replies {
       border-left-color: var(--#{$prefix}gray-700) !important;
-      border-top-color: var(--#{$prefix}gray-700) !important;
 
       &.depth_0 {
         border-left-color: var(--#{$prefix}red) !important;

@@ -12982,7 +12982,6 @@ div.navbar {
 }
 :is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--hpt-gray-300) !important;
-  border-top-color: var(--hpt-gray-300) !important;
 }
 :is(#replies, #more_replies) .comment .replies.depth_0 {
   border-left-color: var(--hpt-red) !important;
@@ -13096,7 +13095,6 @@ div.navbar {
 }
 [data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--hpt-gray-700) !important;
-  border-top-color: var(--hpt-gray-700) !important;
 }
 [data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_0 {
   border-left-color: var(--hpt-red) !important;
