@@ -259,7 +259,7 @@ div.navbar {
 }
 
 @include media-breakpoint-down(sm) {
-  .post_list {
+  .post_list, #replies {
     margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
     margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
     border-radius: 0;
@@ -271,7 +271,7 @@ div.navbar {
   }
 
   .post_col {
-    margin-top: 0 !important;
+    margin-top: 0.5rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     border-radius: 0;
@@ -304,10 +304,6 @@ div.navbar {
     > :last-child {
       padding-right: 0;
     }
-
-    &:has(+ .hidable[style="display: none;"]) {
-      padding-bottom: 0 !important;
-    }
   }
 
   > .replies > .comment {
@@ -335,10 +331,10 @@ div.navbar {
       background: none;
       padding-right: 0;
     }
+  }
 
-    > :has(+ [style*="display: none"]) {
-      padding-bottom: 1rem;
-    }
+  &:has(> .hidable[style="display: none;"]) {
+    padding-bottom: 1rem !important;
   }
 }
 

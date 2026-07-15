@@ -12927,7 +12927,7 @@ div.navbar {
 }
 
 @media (max-width: 575.98px) {
-  .post_list {
+  .post_list, #replies {
     margin-left: calc(-0.5 * var(--hpt-gutter-x)) !important;
     margin-right: calc(-0.5 * var(--hpt-gutter-x)) !important;
     border-radius: 0;
@@ -12937,7 +12937,7 @@ div.navbar {
     border-radius: 0;
   }
   .post_col {
-    margin-top: 0 !important;
+    margin-top: 0.5rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     border-radius: 0;
@@ -12967,9 +12967,6 @@ div.navbar {
 .comment > .row > :last-child {
   padding-right: 0;
 }
-.comment > .row:has(+ .hidable[style="display: none;"]) {
-  padding-bottom: 0 !important;
-}
 .comment > .replies > .comment {
   margin: 0 !important;
   background: none;
@@ -12992,8 +12989,8 @@ div.navbar {
   background: none;
   padding-right: 0;
 }
-:is(#replies, #more_replies) .comment > :has(+ [style*="display: none"]) {
-  padding-bottom: 1rem;
+.comment:has(> .hidable[style="display: none;"]) {
+  padding-bottom: 1rem !important;
 }
 
 @media (max-width: 575.98px) {
