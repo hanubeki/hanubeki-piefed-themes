@@ -1,3 +1,15 @@
+/* Root variables */
+
+:root {
+  --hb-post-background: rgba(255, 255, 255, 0.8);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark, true) {
+    --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
+  }
+}
+
 /* Button style overrides */
 
 .btn-group:not(.btn-group-toggle):has(.btn-outline-secondary):not(:has(> .dropdown-menu)) {
@@ -77,6 +89,59 @@
       &:is(:focus, :hover):not(.active, :active) {
         color: var(--#{$prefix}black) !important;
       }
+    }
+  }
+}
+
+/* Additional bootstrap styles */
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    pre {
+      color: var(--#{$prefix}gray-300);
+    }
+  }
+}
+
+.card {
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+}
+
+.form-control, .form-select {
+  background-color: var(--hb-post-background) !important;
+  color: var(--#{$prefix}primary) !important;
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .form-control, .form-select {
+      background-color: var(--#{$prefix}body-bg) !important;
+
+      &:focus {
+        @if $enable-shadows {
+          @include box-shadow($input-box-shadow, $input-focus-box-shadow-dark);
+        } @else {
+          // Avoid using mixin so we can pass custom focus shadow properly
+          box-shadow: $input-focus-box-shadow-dark;
+        }
+      }
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .form-control::file-selector-button {
+      color: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .thumbnail {
+      background-color: var(--#{$prefix}gray-700) !important;
     }
   }
 }
@@ -222,15 +287,58 @@ div.navbar {
   background-color: transparent !important;
 }
 
-.comment > .row {
-  margin: 0;
+.comment {
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 
-  > :first-child {
-    padding-left: 0;
+  > .row {
+    margin: 0;
+
+    > :first-child {
+      padding-left: 0;
+    }
+
+    > :last-child {
+      padding-right: 0;
+    }
+
+    &:has(+ .hidable[style="display: none;"]) {
+      padding-bottom: 0 !important;
+    }
   }
-  
-  > :last-child {
-    padding-right: 0;
+
+  > .replies > .comment {
+    margin: 0 !important;
+    background: none;
+    padding: 0;
+  }
+
+  #replies .replies & {
+    margin-right: 0 !important;
+  }
+
+  :is(#replies, #more_replies) & {
+    border: none;
+    padding: 1rem;
+    padding-bottom: 0;
+
+    .replies {
+      border-left-color: var(--#{$prefix}gray-300) !important;
+      border-top-color: var(--#{$prefix}gray-300) !important;
+    }
+
+    .comment {
+      margin-bottom: 0 !important;
+      background: none;
+      padding-right: 0;
+    }
+
+    > :has(+ [style*="display: none"]) {
+      padding-bottom: 1rem;
+    }
   }
 }
 
@@ -247,27 +355,6 @@ div.navbar {
   }
 }
 
-:is(#replies, #more_replies) .comment {
-  border: none;
-  padding: 1rem;
-  padding-bottom: 0;
-
-  .comment {
-    margin-bottom: 0 !important;
-    background: none;
-    padding-right: 0;
-  }
-
-  > :has(+ [style*="display: none"]) {
-    padding-bottom: 1rem;
-  }
-}
-
-:is(#replies, #more_replies) .comment .replies {
-  border-left-color: var(--#{$prefix}gray-300) !important;
-  border-top-color: var(--#{$prefix}gray-300) !important;
-}
-
 @if $enable-dark-mode {
   @include color-mode(dark) {
     :is(#replies, #more_replies) .comment .replies {
@@ -277,15 +364,17 @@ div.navbar {
   }
 }
 
-#replies .replies .comment {
-  margin-right: 0 !important;
-}
-
 @include media-breakpoint-down(sm) {
   #replies > div > .comments > .comment {
     margin: 0 0 0.5rem !important;
     border-radius: 0;
   }
+}
+
+.replies:has(> a) {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 0;
 }
 
 .message_reactions .message_reaction {
