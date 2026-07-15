@@ -234,7 +234,7 @@ div.navbar {
 
 @include media-breakpoint-down(sm) {
   #home_announcement {
-    margin-top: 0 !important;
+    margin-top: 0.5rem !important;
     margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
     margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
     border-radius: 0;

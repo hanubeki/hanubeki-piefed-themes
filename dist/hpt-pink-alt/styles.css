@@ -12903,7 +12903,7 @@ div.navbar {
 
 @media (max-width: 575.98px) {
   #home_announcement {
-    margin-top: 0 !important;
+    margin-top: 0.5rem !important;
     margin-left: calc(-0.5 * var(--hpt-gutter-x)) !important;
     margin-right: calc(-0.5 * var(--hpt-gutter-x)) !important;
     border-radius: 0;
