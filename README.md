@@ -4,7 +4,7 @@
 * 4 color schemes, light/dark modes preferences
 * Mobile friendly (if instance owner installs these themes)
 
-These files are themes for [PieFed](https://codeberg.org/rimu/pyfedi/) v1.4.0, based on Bootstrap 5.3.8.
+These files are themes for [PieFed](https://codeberg.org/rimu/pyfedi/) v1.6.27, based on Bootstrap 5.3.8.
 
 ## Preview
 
