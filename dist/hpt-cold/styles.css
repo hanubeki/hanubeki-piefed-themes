@@ -12984,6 +12984,96 @@ div.navbar {
   border-left-color: var(--hpt-gray-300) !important;
   border-top-color: var(--hpt-gray-300) !important;
 }
+:is(#replies, #more_replies) .comment .replies.depth_0 {
+  border-left-color: var(--hpt-red) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_1 {
+  border-left-color: var(--hpt-orange) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_2 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_3 {
+  border-left-color: var(--hpt-green) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_4 {
+  border-left-color: var(--hpt-teal) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_5 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_6 {
+  border-left-color: var(--hpt-blue) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_7 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_8 {
+  border-left-color: var(--hpt-purple) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_9 {
+  border-left-color: var(--hpt-pink) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_10 {
+  border-left-color: var(--hpt-red) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_11 {
+  border-left-color: var(--hpt-orange) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_12 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_13 {
+  border-left-color: var(--hpt-green) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_14 {
+  border-left-color: var(--hpt-teal) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_15 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_16 {
+  border-left-color: var(--hpt-blue) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_17 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_18 {
+  border-left-color: var(--hpt-purple) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_19 {
+  border-left-color: var(--hpt-pink) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_20 {
+  border-left-color: var(--hpt-red) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_21 {
+  border-left-color: var(--hpt-orange) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_22 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_23 {
+  border-left-color: var(--hpt-green) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_24 {
+  border-left-color: var(--hpt-teal) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_25 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_26 {
+  border-left-color: var(--hpt-blue) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_27 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_28 {
+  border-left-color: var(--hpt-purple) !important;
+}
+:is(#replies, #more_replies) .comment .replies.depth_29 {
+  border-left-color: var(--hpt-pink) !important;
+}
 :is(#replies, #more_replies) .comment .comment {
   margin-bottom: 0 !important;
   background: none;
@@ -13007,6 +13097,96 @@ div.navbar {
 [data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--hpt-gray-700) !important;
   border-top-color: var(--hpt-gray-700) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_0 {
+  border-left-color: var(--hpt-red) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_1 {
+  border-left-color: var(--hpt-orange) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_2 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_3 {
+  border-left-color: var(--hpt-green) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_4 {
+  border-left-color: var(--hpt-teal) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_5 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_6 {
+  border-left-color: var(--hpt-blue) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_7 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_8 {
+  border-left-color: var(--hpt-purple) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_9 {
+  border-left-color: var(--hpt-pink) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_10 {
+  border-left-color: var(--hpt-red) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_11 {
+  border-left-color: var(--hpt-orange) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_12 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_13 {
+  border-left-color: var(--hpt-green) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_14 {
+  border-left-color: var(--hpt-teal) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_15 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_16 {
+  border-left-color: var(--hpt-blue) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_17 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_18 {
+  border-left-color: var(--hpt-purple) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_19 {
+  border-left-color: var(--hpt-pink) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_20 {
+  border-left-color: var(--hpt-red) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_21 {
+  border-left-color: var(--hpt-orange) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_22 {
+  border-left-color: var(--hpt-yellow) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_23 {
+  border-left-color: var(--hpt-green) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_24 {
+  border-left-color: var(--hpt-teal) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_25 {
+  border-left-color: var(--hpt-cyan) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_26 {
+  border-left-color: var(--hpt-blue) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_27 {
+  border-left-color: var(--hpt-indigo) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_28 {
+  border-left-color: var(--hpt-purple) !important;
+}
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies.depth_29 {
+  border-left-color: var(--hpt-pink) !important;
 }
 
 @media (max-width: 575.98px) {

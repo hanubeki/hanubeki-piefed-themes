@@ -324,6 +324,126 @@ div.navbar {
     .replies {
       border-left-color: var(--#{$prefix}gray-300) !important;
       border-top-color: var(--#{$prefix}gray-300) !important;
+
+      &.depth_0 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_1 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_2 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_3 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_4 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_5 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_6 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_7 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_8 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_9 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
+
+      &.depth_10 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_11 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_12 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_13 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_14 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_15 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_16 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_17 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_18 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_19 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
+
+      &.depth_20 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_21 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_22 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_23 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_24 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_25 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_26 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_27 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_28 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_29 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
     }
 
     .comment {
@@ -356,6 +476,126 @@ div.navbar {
     :is(#replies, #more_replies) .comment .replies {
       border-left-color: var(--#{$prefix}gray-700) !important;
       border-top-color: var(--#{$prefix}gray-700) !important;
+
+      &.depth_0 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_1 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_2 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_3 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_4 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_5 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_6 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_7 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_8 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_9 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
+
+      &.depth_10 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_11 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_12 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_13 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_14 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_15 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_16 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_17 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_18 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_19 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
+
+      &.depth_20 {
+        border-left-color: var(--#{$prefix}red) !important;
+      }
+
+      &.depth_21 {
+        border-left-color: var(--#{$prefix}orange) !important;
+      }
+
+      &.depth_22 {
+        border-left-color: var(--#{$prefix}yellow) !important;
+      }
+
+      &.depth_23 {
+        border-left-color: var(--#{$prefix}green) !important;
+      }
+
+      &.depth_24 {
+        border-left-color: var(--#{$prefix}teal) !important;
+      }
+
+      &.depth_25 {
+        border-left-color: var(--#{$prefix}cyan) !important;
+      }
+
+      &.depth_26 {
+        border-left-color: var(--#{$prefix}blue) !important;
+      }
+
+      &.depth_27 {
+        border-left-color: var(--#{$prefix}indigo) !important;
+      }
+
+      &.depth_28 {
+        border-left-color: var(--#{$prefix}purple) !important;
+      }
+
+      &.depth_29 {
+        border-left-color: var(--#{$prefix}pink) !important;
+      }
     }
   }
 }
