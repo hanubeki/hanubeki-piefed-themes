@@ -312,6 +312,10 @@ div.navbar {
     padding: 0;
   }
 
+  > .comment_actions > .post_replies_link {
+    text-wrap-mode: nowrap;
+  }
+
   #replies .replies & {
     margin-right: 0 !important;
   }

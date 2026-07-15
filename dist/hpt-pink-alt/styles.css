@@ -12972,6 +12972,9 @@ div.navbar {
   background: none;
   padding: 0;
 }
+.comment > .comment_actions > .post_replies_link {
+  text-wrap-mode: nowrap;
+}
 #replies .replies .comment {
   margin-right: 0 !important;
 }
